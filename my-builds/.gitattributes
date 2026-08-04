@@ -1,0 +1,5 @@
+# Scoped to my-builds/ so upstream files keep whatever Git already does with them.
+# core.autocrlf=true is set globally on this machine, which rewrites the working
+# copy to CRLF. Pin this subtree to LF so the files match what's stored in Git
+# and stay clean if they're ever run or diffed on Linux/macOS.
+* text=auto eol=lf

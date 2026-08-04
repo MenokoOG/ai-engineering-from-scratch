@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Node / TypeScript
+node_modules/
+*.tsbuildinfo
+dist/
+
+# Secrets and local env
+.env
+.env.local
+
+# OS cruft
+.DS_Store
+Thumbs.db
